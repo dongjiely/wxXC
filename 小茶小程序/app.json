@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+		"pages/shop-cart/shop-cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#757575",
+    "selectedColor": "#e64340",
+    "borderStyle": "block",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/nav/biaopin-off.png",
+        "selectedIconPath": "images/nav/biaopin-on.png",
+        "text": "标品"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/nav/diy-off.png",
+        "selectedIconPath": "images/nav/diy-on.png",
+        "text": "DIY"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "images/nav/cart-off.png",
+        "selectedIconPath": "images/nav/cart-on.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
